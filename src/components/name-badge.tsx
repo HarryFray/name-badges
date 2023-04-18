@@ -1,6 +1,6 @@
-interface NameBadgeProps {
+type NameBadgeProps = {
   name: string;
-}
+};
 
 const NameBadge = ({ name }: NameBadgeProps): JSX.Element => {
   return (
